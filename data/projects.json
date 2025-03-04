@@ -1,0 +1,45 @@
+{
+    "projects": [  
+    {
+      "title": "Helsets Sand Simulator",
+      "date": "2025-03-04",
+      "updated": "2025-03-04",
+      "image": "/images/placeholder.webp",
+      "github": "",
+      "link":"/projects/SandSimulator/",
+      "language":"C++",
+      "content": [
+        "Helsets Sand Simulator är en sandlåda som är programerad i C++",
+        "Allt är programerat i C++ och renderas men raylib.",
+        "Detta är mitt första C++ program och har lärt mig om grunderna i C++."
+      ]
+    },
+    {
+        "title": "Helsets Flappy Bird",
+        "date": "2025-03-04",
+        "updated": "2025-03-04",
+        "image": "/images/placeholder.webp",
+        "github": "",
+        "link":"/projects/FlappyBird/",
+        "language":"C",
+        "content": [
+          "Helsets Flappy Bird är en klon av det populära spelet Flappy Bird gjord i C.",
+          "När jag gjorde Helsets Sand Simulator upptäckte jag att jag inte använde klasser och därför skulle kunnat gjort det i C, så jag gjorde detta istället.",
+          "Dethär har lärt mig om C och skillnaderna mellan C och C++."
+        ]
+      },
+      {
+        "title": "Helsets MineSweeper",
+        "date": "2025-03-04",
+        "updated": "2025-03-04",
+        "image": "/images/placeholder.webp",
+        "github": "https://github.com/Helset123",
+        "link":"/projects/Minesweeper/",
+        "language":"C#",
+        "content": [
+          "Helsets MineSweeper är en klon av det populära spelet MineSweeper gjord i C#.",
+          "Det är ett projekt som jag är stolt över"
+        ]
+      }
+  ]
+}

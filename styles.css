@@ -1,0 +1,173 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set default font and background color */
+body {
+    font-family: sans-serif, Arial;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    min-width: 650px;
+    text-align: center;
+}
+
+/* Container class for centering content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    min-height: 60px;
+    border-bottom: #08c 5px solid;
+    padding: 10px 10px 10px 10px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin-left: 10px;
+}
+
+header #branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid #888;
+}
+
+p {
+    margin: .33em 0 1em;
+}
+
+ul {
+    list-style:square;
+    margin: 0 0 1em 1.5em;
+}
+
+.date {
+    font-size: .812em;
+    color: #666;
+}
+
+/* Clearfix for floats */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#header-content nav {
+    margin-left: auto;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+#content {
+    width:95%;
+    margin:0 auto;
+    text-align: left;
+    font-size: .812em;
+    display: flex;
+}
+
+#content-main-wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#content-main {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#content-sidebar {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+#search-box {
+    height: 50px;
+    background: #08c;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+#search-box form {
+    display: flex;
+    align-items: center;
+}
+
+#search-box h2 {
+    border-bottom: none !important; 
+}
+
+#links ul {
+    list-style: none;
+    padding: 0 0 0 3px;
+}
+
+#links a {
+    text-decoration: none;
+    color: #08c;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+div.box {
+    margin-bottom: 1.5em;
+    padding: .65em;
+    background: #ecf2f5;
+    border: 1px solid #bcd;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

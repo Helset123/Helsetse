@@ -1,0 +1,42 @@
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #333;
+}
+
+#portfolio .box {
+    flex: 1;
+    margin: 0;
+    min-width: 250px;
+    min-height: 180px;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #08c;
+}
+
+#portfolio a:hover {
+    text-decoration: underline;
+}
+
+#portfolio img {
+    width: 100%;
+    height: auto;
+    
+}
+
+#portfolio h2 {
+    margin: 0;
+    padding: 10px;
+    background: #08c;
+    color: #fff;
+}
+
+#portfolio .proglang {
+        font-size: .812em;
+        color: #08c;
+}
